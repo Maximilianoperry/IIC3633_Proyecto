@@ -67,9 +67,9 @@ Se utiliza el dataset **ReDial** (Li et al., 2018), compuesto por conversaciones
 
 | Modelo | HR@10 | MRR@10 |
 |---|---|---|
-| Random | 0.0070 | 0.0029 |
-| Most Popular | 0.2630 | 0.1282 |
-| Retrieval BM25 | 0.0120 | 0.0033 |
+| Random | 0.00142 | 0.0036 |
+| Most Popular | 0.2399 | 0.1214 |
+| Retrieval BM25 | 0.3271 | 0.1755 |
 | GPT-2 (Qiu et al., 2025) | 0.147 | 0.051 |
 | Llama3.1-8B (Qiu et al., 2025) | 0.188 | 0.078 |
 | **Ours (N=Full, K=50)** | **0.6363** | **0.3599** |
