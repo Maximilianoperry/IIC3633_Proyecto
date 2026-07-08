@@ -4,6 +4,8 @@ Este repositorio contiene la implementación de un **Sistema de Recomendación C
 
 El proyecto se evalúa sobre el dataset **ReDial** (Recommender Dialogue Dataset), comparando el desempeño de la propuesta frente a *baselines* clásicos (Random, Most Popular, BM25) y modelos basados en LLM reportados en la literatura.
 
+> **⚠️ Nota:** GitHub puede mostrar el error *"Invalid Notebook"* al intentar previsualizar el archivo `.ipynb` directamente en el navegador. Esto se debe a metadata de widgets de progreso (generada por Colab al descargar los modelos) que no cumple con el validador de vista previa de GitHub, y no afecta el contenido ni la funcionalidad del notebook. **Para ver el código, basta con descargar el archivo** y abrirlo en Jupyter, Google Colab o VS Code.
+
 ## Contenido del Notebook
 
 El notebook `Sistemas_de_Recomendacion_Conversacional.ipynb` está organizado en las siguientes secciones:
